@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+p {
+  font-family: "Lora", serif;
+}
+nav {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px 0 80px;
+}
+
+nav .links a.active {
+  color: darkolivegreen;
+}
+
+nav .links a {
+  padding-right: 50px;
+  text-decoration: none;
+  color: #000;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+nav .links a:hover {
+  color: darkolivegreen;
+}
+
+nav .logo {
+  color: darkolivegreen;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.hero-image {
+  max-width: 2000px;
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 650px;
+  background-image: url(../images/IMG_5659.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrapper {
+  min-height: 600px;
+  max-width: 1930px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content-wrapper .content-container {
+  margin: auto;
+  display: flex;
+  max-width: 900px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.content-wrapper .content-container .home-content {
+  width: 515px;
+}
+
+.content-wrapper .content-container .home-content: :first-child {
+  margin-right: 80px;
+}
+
+.about-margin-top {
+  margin-top: 100px;
+}
+
+.image-title-desc {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.image-title-desc .image-holder {
+  height: 300px;
+  width: 300px;
+
+  margin-right: 450px;
+  border-radius: 0%;
+}
+
+.image-title-desc .image-holder img {
+  width: 100%;
+  height: auto;
+}
+
+.image-holder img {
+  margin-left: 375px;
+}
+
+.title-desc {
+  margin-top: 50px;
+}
+
+.title-desc h4 {
+  color: darkolivegreen;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.title-desc .desc {
+  width: 350px;
+}
+
+footer {
+  height: 160px;
+  max-width: 1930px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+footer p {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.overlay-text {
+  position: fixed;
+  width: 110px;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text h1 {
+  font-size: 85px;
+  font-family: "Roboto", sans-serif;
+  color: darkolivegreen;
+  opacity: 0.8;
+  transform: rotate(-90deg);
+  letter-spacing: 22px;
+}
